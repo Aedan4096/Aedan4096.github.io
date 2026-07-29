@@ -97,13 +97,13 @@ footer {
 .nav-links {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
 }
 
 .nav-links a {
     padding: 12px 18px;
-    color: white;
-    background-color: #dcee12;
+    color: black;
+    background-color: rgb(217, 217, 196);
     font-size: 16px;
     text-align: center;
     border-radius: 6px;
