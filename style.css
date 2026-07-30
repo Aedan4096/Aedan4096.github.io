@@ -17,15 +17,15 @@ body {
 
 
 
-button {
+#theme-toggle {
     margin-left: -200px;
     margin-top: 25px;
     background-color: yellow;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 
-button:hover{
+#theme-toggle:hover{
     transition-delay: 0.1s;
     background-color: black;
     color: white;
@@ -41,6 +41,52 @@ background-size: 40%;
 
 a:hover {
     text-decoration: none;
+}
+
+
+.dropdown {
+    position: relative;
+}
+
+
+.filter {
+  background-color: rgb(217, 217, 196);
+  color: black;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.filter-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  z-index: 1;
+}
+
+
+.show {
+    display: block
+}
+
+.filter-content a{
+  color: #333333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.filter-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.filter-content.show {
+  display: block;
 }
 
 h1,
