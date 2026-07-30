@@ -9,7 +9,7 @@ function openFilter() {
     }
   };
 
-
+function 
 
 
 filter.addEventListener("click", openFilter);
