@@ -21,14 +21,11 @@ img {
     margin-top: -100px;
 }
 
-.funnelbuy {
-  background-color: rgb(251, 233, 213);
-  border-radius: 15px;
-  width: 200px;
-  height: 40px;
-  font-size: 20px;
-  margin-left: -466px;
-  margin-top: -400px;
+.funnelscreen {
+    scale:90%;
+    margin-left: -250px;
+    margin-top: 100px;
+    border: 1px solid #2a2a2a;
 }
 
 #theme-toggle {

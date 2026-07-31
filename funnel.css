@@ -4,16 +4,9 @@ body {
   margin: 0;
 }
 
-img {
-    scale: 40%;
-    margin-left: -220px;
-    margin-top: -100px;
-}
-
-
 html {
   font-size: 10px;
-  background-color: #1a1a1a;
+  background-color: rgb(241, 233, 213);
 }
 
 body {
@@ -22,21 +15,31 @@ body {
   margin: 0 auto;
 }
 
+img {
+    scale: 40%;
+    margin-left: -220px;
+    margin-top: -100px;
+}
 
+.funnelscreen {
+    scale:90%;
+    margin-left: -250px;
+    margin-top: 100px;
+    border: 1px solid #2a2a2a;
+}
 
 #theme-toggle {
     margin-left: -200px;
     margin-top: 25px;
-    background-color: black;
-    color: white;
+    background-color: yellow;
     border-radius: 10px;
 }
 
 
 #theme-toggle:hover{
     transition-delay: 0.1s;
-    background-color: yellow;
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 h3 {
@@ -58,8 +61,8 @@ a:hover {
 
 
 .filter {
-  background-color: rgb(38, 38, 59);
-  color: white;
+  background-color: rgb(217, 217, 196);
+  color: black;
   padding: 12px 20px;
   font-size: 16px;
   border: none;
@@ -72,7 +75,7 @@ a:hover {
 .filter-content {
   display: none;
   position: absolute;
-  background-color: black;
+  background-color: #ffffff;
   min-width: 160px;
   box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
   border-radius: 4px;
@@ -85,14 +88,14 @@ a:hover {
 }
 
 .filter-content a{
-  color: #cccccc;
+  color: #333333;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
 .filter-content a:hover {
-  background-color: #0e0e0e;
+  background-color: #f1f1f1;
 }
 
 .filter-content.show {
@@ -102,7 +105,7 @@ a:hover {
 h1,
 h2 {
   font-family: "sans serrif", cursive;
-  color: #d5d5d5;
+  color: #2a2a2a;
   margin-top: 50px;
 }
 p {
@@ -112,14 +115,14 @@ p {
 p,
 li {
   font-family: "Roboto Condensed", sans-serif;
-  color: #d5d5d5;
+  color: #2a2a2a;
 }
 
 h1 {
   font-size: 65px;
   text-align: center;
   margin-top: -15px;
-  text-shadow: 2px 2px 10px white;
+  text-shadow: 2px 2px 10px black;
   margin-left: -40px;
 }
 
@@ -133,7 +136,6 @@ footer {
   left: 10px;
   margin-top: 440px;
   margin-left: -160px;
-  color: white;
 }
 
 * {
@@ -149,7 +151,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     padding: 0 7%;
-    background-color: #000718;
+    background-color: #fff8e7;
 }
 
 
@@ -159,17 +161,21 @@ footer {
     gap:10px
 }
 
+button {
+    margin-right: 200px;
+    margin-top: 0px;
+}
 
 .nav-links a {
     padding: 12px 18px;
-    color: white;
-    background-color: rgb(38, 38, 59);
+    color: black;
+    background-color: rgb(217, 217, 196);
     font-size: 16px;
     text-align: center;
     border-radius: 6px;
 }
 
 .nav-links a:hover {
-    background-color: #12278ff2;
+    background-color: #edd870ad;
     transform: scale(1.1);
 }
