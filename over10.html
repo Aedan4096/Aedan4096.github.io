@@ -7,32 +7,42 @@
       href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300%7CCinzel+Decorative:700"
       rel="stylesheet" />
       <link id="theme-sheet" href="style.css" rel="stylesheet"/>
-    <script src="script.js" defer></script>
 
+    <script src="script2.js" defer></script>
     <link rel="icon" type="image/x-icon" href="https://static.vecteezy.com/system/resources/previews/023/725/392/non_2x/abstract-low-poly-pine-tree-icon-isolated-geometric-polygonal-style-3d-low-poly-vector.jpg">
     <button id="theme-toggle">Light/Dark Mode</button>
   </head>
-
   <body>
     <nav class="navbar">
     <h1> PlastiJoy</h1>
     <h3>
     <div class="nav-links">
     <a href="index.html"> Home </a>
-    <a href="#">About</a> 
-    <a href="explore.html">Explore</a>
+    <a href="about.html" >About</a> 
+    <a href="#">Explore</a>
     <a href="toolsandactions.html">Tools/Actions</a>
     </div>
     </h3>
     </nav>
 
-    <h2>What is PlastiJoy?</h2>
+    <h2>Our 3d file collection</h2>
 
     <p>
-      PlastiJoy is a site that holds many 3d print files ready to be sold to customers.
+      Explore our current online store and consider purchasing something!
     </p>
     <hr>
-    
+    <div class="dropdown">
+        <button class = "filter" id="filter">Filter: Over $10 ▼</button>
+        
+        <div class = "filter-content" id = "filter-content">
+            <a href="explore.html">All</a>
+            <a href="free-5.html">$0-$5</a>
+            <a href="5-10.html">$5-$10</a>
+            <a href="#">Over $10</a>
+        </div>
+    </div>
+
+
     <footer>
         Website made by Aedan Chen
     </footer>
